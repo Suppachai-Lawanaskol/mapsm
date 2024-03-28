@@ -1,7 +1,0 @@
-v 1
-d {bf:Suppachai Lawanaskol, Chaiprakarn hospital}
-d mapsm 	Multiple arms propensity score matching
-d Multiple arms propensity score pairwise matching
-f mapsm.ado
-f mapsm.sthlp
-
