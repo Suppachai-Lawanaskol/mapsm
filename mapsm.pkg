@@ -1,0 +1,11 @@
+v 1
+d {bf:Suppachai Lawanaskol, Chaiprakarn hospital}
+d bta2score 	Beta to score
+d Rounded the beta coefficient of the regression to construct prediction model
+d Round and generate the summation of score to create integer score 
+d that can use by mental math inemergency condition and rapid decision making.{bf:bta2score}
+d Distribution-Date: 20240123
+d Support; suppachai.lawanaskol@gmail.com
+f bta2score.ado
+f bta2score.sthlp
+

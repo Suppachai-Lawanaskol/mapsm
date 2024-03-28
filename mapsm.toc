@@ -1,0 +1,7 @@
+v 1
+d {bf:Suppachai Lawanaskol, Chaiprakarn hospital}
+d bta2score 	Beta to score
+d Rounded the beta coefficient of the regression to construct prediction model
+f bta2score.ado
+f bta2score.sthlp
+
