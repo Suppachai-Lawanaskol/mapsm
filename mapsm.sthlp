@@ -53,7 +53,7 @@
 {p 5 5 3}
 Import Chocolate cyst example dataset. The surgeon was choosing between the laparoscopic approach and laparotomy approach to diagnose, stage, and eradicate the endometrioma.{p_end}
 
-{phang2}{stata use chocolate cyst.dta,clear: use chocolate cyst.dta,clear}
+{phang2}{stata use chocolate_cyst.dta,clear: use chocolate_cyst.dta,clear}
 
 {p 5 5 3}
 Estimate propensity score with binary logistic regression{p_end}
