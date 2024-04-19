@@ -123,7 +123,7 @@ Predict the probability. (propensity score){p_end}
 {p 5 5 3}
 Create an imaginary matched cohort and record the seeding number. Report the smallest balance diagnostic value and its seeding number. Input the probability variable. Multiple treatment groups. Specify initiation seeding number to {cmd:1234}. Strata variable name, {cmd:"Block"}. Strata size of {cmd:10}. The iteration round of {cmd:50}. The Covariates accountable for the balance diagnostic are {cmd: Sex, Age, New York Heart Association (NYHA) functional class, Canadian Cardiovascular Society (CCS) Angina Grade, ACEI/ARB, Aspirin, Clopidogrel, Chronic kidney disease stage V, Coronary artery disease type (e.g. single, double, triple vessel disease),and Left main disease}. Strata tabulation across the treatment groups is suppressed.{p_end}
 
-{phang2}{stata mapsm cabg opcab onbhcab, group(sxtype) : mapsm cabg opcab onbhcab, group(sxtype) }
+{phang2}{stata mapsm cabg opcab onbhcab, group(sxtype) seed(1234) name(block) size(10) smd(sex age i.nyfc i.ccs aceiarb asa clopidogrel ckd5esrd i.cadtype lm) iterate(50) notab: mapsm cabg opcab onbhcab, group(sxtype) seed(1234) name(block) size(10) smd(sex age i.nyfc i.ccs aceiarb asa clopidogrel ckd5esrd i.cadtype lm) iterate(50) notab}
 
 {p 5 5 3}
 After the 50 iterations, the maximum standardized difference is {cmd:0.0661}, and the seeding number is {cmd:1255}.
