@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 1.3 28april2024}{...}
+{* *! version 1.3 1May2024}{...}
 {viewerdialog mapsm "dialog mapsm"}{...}
 {viewerjumpto "Syntax" "mapsm##syntax"}{...}
 {viewerjumpto "Description" "mapsm##description"}{...}
