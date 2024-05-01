@@ -3,7 +3,7 @@ d {bf:Suppachai Lawanaskol, Chaiprakarn hospital}
 d mapsm 	Multiple arms propensity score matching
 d Multiple arms propensity score pairwaise matching
 d Pairwise matching after multinomial logistic regression 
-d Iterate and collect the seeding number of the fittest diagnostic balance parameter.{bf:mapsm}
+d Iterate and collect the seeding number of the smallest diagnostic balance parameter.{bf:mapsm}
 d Distribution-Date: 20240501
 d Support; suppachai.lawanaskol@gmail.com
 f mapsm.ado
