@@ -1,4 +1,4 @@
-v 1
+v 1.3
 d {bf:Suppachai Lawanaskol, Chaiprakarn hospital}
 d mapsm Multiple arms propensity score matching
 d Matching study participant with the multinomial logistic regression predicted propensity score.
